@@ -18,6 +18,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Datum_Ulaska" id="86002F17-B268-6E2E-46AE-DE74343B0BD9">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:51:21 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Napustanja" id="9A47FACF-3E29-40E9-BC68-CB04A3D247A9">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:51:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Grupni_Razgovori_ ID_Grupe" id="9227C6D6-48A7-D6E0-21D1-E3CB527E2089">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:56:47 UTC</createdTime>
@@ -45,6 +65,18 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E34DD8F3-6B19-BD7D-7E59-9BBFD98BB41B" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Role_ID_Rola" id="2470440E-3259-BDCA-7773-1AA0D29624D0">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA928314-1DE1-9DEF-2A5F-C1B354B71DF5" referredColumn="9B7B8EF8-D900-5542-C24D-80A70815EC2F"/>
 </associations>
 </Column>
 </columns>
@@ -78,6 +110,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9957A4AA-ED10-EADB-5EDB-00EF645A7B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE29763F-49CA-89DE-035C-FD04271D0B09" name="Clanstvo_U_Grupi _Role_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2470440E-3259-BDCA-7773-1AA0D29624D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

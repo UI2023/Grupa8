@@ -66,6 +66,48 @@
 <colAssociation fkAssociation="FBC793D1-C904-C155-7419-814446644F2B" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
+<Column name="Status_Poruke_ID_Status" id="894BB6D6-73D1-616F-328E-7D7DC3CD3288">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:50:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D1163DF-D1DF-D8C7-38EB-293D7E729DDD" referredColumn="2A90217B-65EA-04C9-FA8D-92859C95BF49"/>
+</associations>
+</Column>
+<Column name="Konverzacija_ID_Konverzacije" id="951391F4-5242-8913-634A-843782C3C12E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:19:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F024D8D-6DA4-629E-3E02-A28C5C2F4314" referredColumn="A2418004-C07F-4F40-286F-A5C5BD8D90CE"/>
+</associations>
+</Column>
+<Column name="Grupa_ ID_Grupe" id="DAA58EB7-8E0B-E170-2723-180080FCC943">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:23:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="506841D5-4CC7-B59A-E6B5-C136E6B705F2" referredColumn="93D1151C-7F44-D605-CA86-914E3078417C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8CDFB1B8-5E3E-364D-7578-05C8CB0FF51E" name="Poruke_PK">
@@ -97,6 +139,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="14DD6C24-561E-6217-C0CB-94F9F0AB34B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D59610FB-6268-E651-6BED-B274D9099DB1" name="Poruke _Status_Poruke_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:50:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894BB6D6-73D1-616F-328E-7D7DC3CD3288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1CBA1C5-B295-20EB-E2E8-547229B03EC5" name="Poruke _Konverzacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:19:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="951391F4-5242-8913-634A-843782C3C12E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AEE0F08-3DC2-882C-B2EE-4EF2E9C9F74D" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:23:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAA58EB7-8E0B-E170-2723-180080FCC943"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

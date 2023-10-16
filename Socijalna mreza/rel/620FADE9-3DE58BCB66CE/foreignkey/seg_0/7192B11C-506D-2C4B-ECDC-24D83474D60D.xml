@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7192B11C-506D-2C4B-ECDC-24D83474D60D" containerWithKeyObject="AC9DAE87-E522-C585-D893-4E0AD544A456" localFKIndex="5B42E3B1-2C5A-CE7C-433A-0CD2F1121AF8" name="Lajkovi_Muzika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Pesma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9A5F305-538E-4C12-4140-67C8F43838EB</referredTableID>
+<keyObject>7300CDB0-51B5-865F-12B3-4D7D9D77DD0E</keyObject>
+<referredKeyID>7300CDB0-51B5-865F-12B3-4D7D9D77DD0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pesme</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

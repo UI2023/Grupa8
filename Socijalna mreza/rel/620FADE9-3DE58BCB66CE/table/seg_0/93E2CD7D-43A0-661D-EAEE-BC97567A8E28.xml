@@ -29,13 +29,33 @@
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Objave" id="BC5E57B0-C93F-214F-C3DE-90F2306B766D">
+<Column name="Datum_Brisanja" id="E929FFFA-8491-33B3-EE7A-24B90C337EE5">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:57:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Kreiranja" id="BC5E57B0-C93F-214F-C3DE-90F2306B766D">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:52:48 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Arhiviranja" id="6D3C628D-CE39-7C23-4426-2E133B4B1E5A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:57:15 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,8 +69,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="6B987FC3-4B15-3437-B277-22E698BC6030">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9FEA2FF2-1DCD-C01A-D3A8-9B7245190B04" referredColumn="C32B7A46-0580-75D6-0BFA-7601DA1E959D"/>
+<colAssociation fkAssociation="6FCDB7F3-5B64-8F87-24F8-A268342BD1FE" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
 </columns>
@@ -66,14 +97,14 @@
 <colUsage columnID="29649F62-77C3-A734-6803-5B605677E20B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D78C3FAF-6D1D-016E-B5AE-62D8C15101C1" name="Objave_Tip_Obajve_FK">
+<ind_PK_UK id="279EBEB3-CA9A-A66A-98C9-F0B9E3320D99" name="Kreator_Objave">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:57:24 UTC</createdTime>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6106F57-F178-0002-312F-9485D9849A52"/>
+<colUsage columnID="6B987FC3-4B15-3437-B277-22E698BC6030"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

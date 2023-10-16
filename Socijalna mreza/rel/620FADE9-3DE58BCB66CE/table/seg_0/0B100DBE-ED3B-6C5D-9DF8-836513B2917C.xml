@@ -89,7 +89,7 @@
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -103,8 +103,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_ ID_Status" id="F1880382-2A0A-4E76-E277-9CAA0369E830">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:47:21 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3B9E21B4-5C97-428D-AB1D-759DA4C71A19" referredColumn="54CBFEBF-024B-4DDE-7C40-6D6E92712BC3"/>
+<colAssociation fkAssociation="961D37EC-A6BE-C10B-DE0E-3A63912F67A9" referredColumn="A58E0A2C-CDE8-FA13-A24B-FCF262268967"/>
 </associations>
 </Column>
 </columns>
@@ -120,14 +131,14 @@
 <colUsage columnID="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D13D1090-9CA3-F63B-B1B8-D92C6FAFAFD1" name="Korisnik_Aktivnost_Korisnika_FK">
+<ind_PK_UK id="159B8E7E-3D2C-45DE-4D21-D52FBF8B4D9A" name="Korisnik_Status_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:56:10 UTC</createdTime>
+<createdTime>2023-10-16 12:47:21 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9BBE20B1-2604-07D3-8243-7AB1CEB5DB71"/>
+<colUsage columnID="F1880382-2A0A-4E76-E277-9CAA0369E830"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

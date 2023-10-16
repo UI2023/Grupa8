@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD058CA3-1DFA-B259-D0BB-6B1662C4DBAB" containerWithKeyObject="EC80A4AB-8B6A-6EA8-DB40-0968B74AFDE7" localFKIndex="36B831FF-49C7-1AD3-5876-C08DDEB69ED8" name="Komentari_Slike_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:57:59 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Slike</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7815BE47-226B-2FA0-864A-3DA8526626FA</referredTableID>
+<keyObject>22A8B431-DE5D-B8A4-9834-6527E1C4D7D3</keyObject>
+<referredKeyID>22A8B431-DE5D-B8A4-9834-6527E1C4D7D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Slike</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

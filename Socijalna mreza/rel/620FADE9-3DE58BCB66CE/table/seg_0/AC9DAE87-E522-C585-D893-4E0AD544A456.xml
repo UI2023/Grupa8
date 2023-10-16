@@ -48,6 +48,58 @@
 <colAssociation fkAssociation="9AA53FE3-F4EC-2E88-BA02-1C01A488814D" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
+<Column name="Datum_Lajkovanja" id="62B409C6-3205-5D05-8FB4-BF6C3A5C3155">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:58:39 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Muzika_ID_Muzika" id="36FAF898-4168-B8F6-89ED-B5E0281D9A78">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7192B11C-506D-2C4B-ECDC-24D83474D60D" referredColumn="A5ECF796-C39C-252C-5CE4-F4C0CF0E23AA"/>
+</associations>
+</Column>
+<Column name="Video_ID_Video" id="894EE5E7-67F3-5568-ACD0-FA422710F98D">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8869D10B-2C21-B3A9-2022-4DE104594964" referredColumn="203F2C6A-732B-EF51-6172-B7DA0C5C9685"/>
+</associations>
+</Column>
+<Column name="Slike_ID_Slike" id="5B26F7D8-4F32-5AAF-EAF7-2E0B82A20B17">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="453CC830-6B75-5A31-96D6-B79A258BFE63" referredColumn="5F2D3A65-B262-5F67-F562-55AA3D895073"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B1E32CE1-D497-2828-AC93-AB630E4461C1" name="Lajkovi_PK">
@@ -79,6 +131,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9F10FC4D-FC0D-E3B6-2E8D-C2F82F629D4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B42E3B1-2C5A-CE7C-433A-0CD2F1121AF8" name="Lajkovi_Muzika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FAF898-4168-B8F6-89ED-B5E0281D9A78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="855E721D-D213-59EB-6A74-8B0AEF65831C" name="Lajkovi_Video_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894EE5E7-67F3-5568-ACD0-FA422710F98D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="225E5BDA-F9E1-D3C8-19D2-3FDB5F2C0BAE" name="Lajkovi_Slike_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:58:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B26F7D8-4F32-5AAF-EAF7-2E0B82A20B17"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
