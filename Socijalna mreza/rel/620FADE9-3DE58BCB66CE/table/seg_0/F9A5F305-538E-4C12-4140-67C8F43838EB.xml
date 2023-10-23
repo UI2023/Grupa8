@@ -74,20 +74,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Objave_ID_Objave" id="DE1E0B71-FE15-3FF1-85E9-85F862156ADD">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:39 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7DA54E42-726E-8D64-0FDC-A168C6A0ADA3" referredColumn="29649F62-77C3-A734-6803-5B605677E20B"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7300CDB0-51B5-865F-12B3-4D7D9D77DD0E" name="Muzika_PK">
@@ -109,16 +95,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B5971D21-50E6-5BCC-9C33-0DA6B837E87A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="577DEDE3-69C0-8BD6-AEFF-CA7D3405953D" name="Muzika_Objave_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:39 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DE1E0B71-FE15-3FF1-85E9-85F862156ADD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

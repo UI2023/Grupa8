@@ -60,20 +60,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Objave_ID_Objave" id="E36C2EF5-7411-4DA9-4922-801C1D79C948">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:26 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EF5CE3A0-68D4-F334-970B-3AD825E35F38" referredColumn="29649F62-77C3-A734-6803-5B605677E20B"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="22A8B431-DE5D-B8A4-9834-6527E1C4D7D3" name="Slike_PK">
@@ -85,16 +71,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5F2D3A65-B262-5F67-F562-55AA3D895073"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="65D47443-B75F-0117-2DF1-89B38CD8E745" name="Slike_Objave_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:26 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E36C2EF5-7411-4DA9-4922-801C1D79C948"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

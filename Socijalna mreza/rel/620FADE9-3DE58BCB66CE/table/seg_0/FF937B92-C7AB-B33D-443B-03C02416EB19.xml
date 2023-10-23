@@ -18,26 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Prihvatanja" id="08DF2EFC-8EB9-1BEF-7FAC-F6DFC96BCE26">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:43:37 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Datum_Odbijanja" id="6EC27F38-4B20-3521-A6B3-F3E7920B8E23">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:43:58 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Datum_Raskid_Prijateljstva" id="DA632FFC-CCDB-925B-8EB6-C3A59E090612">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-16 12:44:24 UTC</createdTime>
@@ -48,23 +28,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status_Prijateljstva_ID_Status" id="FA9BF732-B892-FC51-C8B6-507C1B248A3D">
+<Column name="Datum_Sklapanja_Prijateljstva" id="E4681328-D0E5-FA8A-F0AA-45A7CD730826">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:45 UTC</createdTime>
+<createdTime>2023-10-23 12:13:44 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="634D37E0-59A5-AA74-48F1-66916B8A2772" referredColumn="3B85657D-A42D-6926-047E-4411613A2606"/>
-</associations>
 </Column>
-<Column name="Korisnik_ID_Korisnik" id="613CD883-3DE0-CE37-A758-429D553FA897">
+<Column name="Prijateljstvo_Request_ID_Req" id="58625A04-20DD-0A84-278F-843288038C6F">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:50 UTC</createdTime>
+<createdTime>2023-10-23 12:12:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,21 +49,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CF20BE35-207C-1215-C805-B579D874AB13" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
-</associations>
-</Column>
-<Column name="Korisnik_ID_Korisnik1" id="97B508FF-7D2F-7271-3A9F-7E3838B400DC">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:53 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B15350EC-61B6-7E07-8165-3E9E983F930C" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+<colAssociation fkAssociation="A52FD499-8461-814D-4B1D-78F58243734D" referredColumn="110CB00E-E821-4BEC-B542-366D5B109FA7"/>
 </associations>
 </Column>
 </columns>
@@ -103,34 +65,14 @@
 <colUsage columnID="3712173D-6DDA-00D6-93E9-3B3D6A7D9201"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4D7C7984-C80C-D30A-38AA-B76AC3CF9EC7" name="Prijateljstva_Status_Prijateljstva_FK">
+<ind_PK_UK id="DDC779C4-B98E-2BB6-6006-63740F2F81AB" name="Prijateljstva_Prijateljstvo_Request_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:45 UTC</createdTime>
+<createdTime>2023-10-23 12:12:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FA9BF732-B892-FC51-C8B6-507C1B248A3D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EAE0AEBE-BD7E-E029-7476-B9DFF02BB3AB" name="Prijateljstva_Korisnik_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:50 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="613CD883-3DE0-CE37-A758-429D553FA897"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="82D3FEE6-0A99-A29B-CED7-15491840869B" name="Prijateljstva_Korisnik_FKv2">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:55:53 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="97B508FF-7D2F-7271-3A9F-7E3838B400DC"/>
+<colUsage columnID="58625A04-20DD-0A84-278F-843288038C6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -59,20 +59,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tip_Obajve_ID_Tip_Objave" id="E6106F57-F178-0002-312F-9485D9849A52">
+<Column name="Pesma_ID_Pesme" id="811A236C-71E3-E59F-229A-A6355DA97BC0">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:57:24 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Korisnik_ID_Korisnik" id="6B987FC3-4B15-3437-B277-22E698BC6030">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<createdTime>2023-10-23 12:42:39 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -81,7 +70,35 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6FCDB7F3-5B64-8F87-24F8-A268342BD1FE" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+<colAssociation fkAssociation="DC9F49D2-7191-20EB-202F-BF09B2A2B5B2" referredColumn="A5ECF796-C39C-252C-5CE4-F4C0CF0E23AA"/>
+</associations>
+</Column>
+<Column name="Video_ID_Video" id="491F51C0-78F2-3CC6-7975-58D11C8B32EA">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:42:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA0E6086-5327-BA51-2552-1450CB0A985C" referredColumn="203F2C6A-732B-EF51-6172-B7DA0C5C9685"/>
+</associations>
+</Column>
+<Column name="Slike_ID_Slike" id="388B455D-BC49-5393-81D2-1FC76EEC0EB4">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:42:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76D3EBA0-D912-D402-3427-480F6EB194C4" referredColumn="5F2D3A65-B262-5F67-F562-55AA3D895073"/>
 </associations>
 </Column>
 </columns>
@@ -97,14 +114,41 @@
 <colUsage columnID="29649F62-77C3-A734-6803-5B605677E20B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="279EBEB3-CA9A-A66A-98C9-F0B9E3320D99" name="Kreator_Objave">
+<ind_PK_UK id="0406657A-8EFB-D156-F7F4-FD74280DAFAA" name="Objave_Tip_Obajve_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<createdTime>2023-10-23 12:05:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="262C1439-2FAA-154A-E86F-30FD39876637" name="Objave_Pesma_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:42:39 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6B987FC3-4B15-3437-B277-22E698BC6030"/>
+<colUsage columnID="811A236C-71E3-E59F-229A-A6355DA97BC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAF35691-2436-E3D2-DE1F-8BD68C662CEF" name="Objave_Video_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:42:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="491F51C0-78F2-3CC6-7975-58D11C8B32EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B0E73CB-EAA8-825D-9F7F-1B98E0F7F5D7" name="Objave_Slike_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:42:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="388B455D-BC49-5393-81D2-1FC76EEC0EB4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

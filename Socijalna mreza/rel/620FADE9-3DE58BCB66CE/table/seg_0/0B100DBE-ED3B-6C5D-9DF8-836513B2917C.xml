@@ -141,5 +141,12 @@
 <colUsage columnID="F1880382-2A0A-4E76-E277-9CAA0369E830"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="061C4BBC-9E4C-55FA-679C-04A41E8D1199" name="Korisnik_Aktivnost_Korisnika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:05:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>

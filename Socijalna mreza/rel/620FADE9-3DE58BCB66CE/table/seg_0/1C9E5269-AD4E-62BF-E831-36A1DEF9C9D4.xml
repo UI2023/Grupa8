@@ -61,20 +61,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Objave_ID_Objave" id="1104DBFD-C67A-A09B-F9B8-0BBB2CD25526">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:34 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E6E174EB-62D6-554D-C579-76C600C0A844" referredColumn="29649F62-77C3-A734-6803-5B605677E20B"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3A8F7FA6-7ACE-37CF-C30D-973DC9112B1C" name="Video_PK">
@@ -86,16 +72,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="203F2C6A-732B-EF51-6172-B7DA0C5C9685"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AC7F2D7F-0D57-C061-C6C6-EDC1174E4320" name="Video_Objave_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:57:34 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1104DBFD-C67A-A09B-F9B8-0BBB2CD25526"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
