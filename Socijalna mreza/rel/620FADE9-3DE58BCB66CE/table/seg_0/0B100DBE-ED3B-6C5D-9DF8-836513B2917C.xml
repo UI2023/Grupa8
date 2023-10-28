@@ -104,20 +104,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status_ ID_Status" id="F1880382-2A0A-4E76-E277-9CAA0369E830">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:47:21 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="961D37EC-A6BE-C10B-DE0E-3A63912F67A9" referredColumn="A58E0A2C-CDE8-FA13-A24B-FCF262268967"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7EBC6497-9D30-C4B3-D10D-18428E45F99D" name="Korisnik_PK">
@@ -131,19 +117,16 @@
 <colUsage columnID="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="159B8E7E-3D2C-45DE-4D21-D52FBF8B4D9A" name="Korisnik_Status_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:47:21 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F1880382-2A0A-4E76-E277-9CAA0369E830"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="061C4BBC-9E4C-55FA-679C-04A41E8D1199" name="Korisnik_Aktivnost_Korisnika_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-23 12:05:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="722D0E6B-9DAB-F8DE-F598-9A9AB3D52780" name="Korisnik_Aktivnost_Korisnika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:09:35 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

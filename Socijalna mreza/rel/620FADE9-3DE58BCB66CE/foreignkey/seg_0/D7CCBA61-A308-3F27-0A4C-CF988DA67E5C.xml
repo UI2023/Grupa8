@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0188A504-DC9B-BE88-02E1-6F3ABB021587" containerWithKeyObject="EC80A4AB-8B6A-6EA8-DB40-0968B74AFDE7" localFKIndex="494A5EE3-6F87-7777-73D3-0523A6383B58" name="Komentari_Objave_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CCBA61-A308-3F27-0A4C-CF988DA67E5C" containerWithKeyObject="25C8414B-85AC-5206-CB26-0546A213F4AF" localFKIndex="32E81A22-1956-5FB8-CB27-96167595009D" name="TABLE_29_Objave_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-09 13:57:29 UTC</createdTime>
+<createdTime>2023-10-28 22:40:00 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <referredTableLongName>Objave</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -53,7 +53,6 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:57:09 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -68,7 +67,6 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:57:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -77,6 +75,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0188A504-DC9B-BE88-02E1-6F3ABB021587" referredColumn="29649F62-77C3-A734-6803-5B605677E20B"/>
+</associations>
+</Column>
+<Column name="Komentari_ID_Komentari" id="3E9024A9-4976-F5BC-4587-B0F988E89FBB">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:34:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B750E23-6BDC-F5F3-14A9-C70CDDB1150A" referredColumn="EB77C4A3-EFC2-A83A-145F-AC516E7FFBA0"/>
 </associations>
 </Column>
 </columns>
@@ -110,6 +123,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="92AA94AE-E105-CFEA-4059-1D47346C0EB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D26E5085-E78C-BC06-A1B0-97C3F7568831" name="Komentari_Komentari_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:34:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9024A9-4976-F5BC-4587-B0F988E89FBB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

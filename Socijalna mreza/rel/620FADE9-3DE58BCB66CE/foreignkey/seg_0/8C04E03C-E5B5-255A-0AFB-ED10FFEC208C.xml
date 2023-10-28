@@ -8,7 +8,7 @@
 <referredTableID>93E2CD7D-43A0-661D-EAEE-BC97567A8E28</referredTableID>
 <keyObject>24C557F3-8BCC-F854-47BF-2AD09FAE04B3</keyObject>
 <referredKeyID>24C557F3-8BCC-F854-47BF-2AD09FAE04B3</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID_Objave</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

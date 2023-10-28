@@ -8,7 +8,7 @@
 <referredTableID>FA501C13-D662-13FD-CC16-15E7527DB629</referredTableID>
 <keyObject>65C09441-3654-4EEB-028E-5823C3F8931A</keyObject>
 <referredKeyID>65C09441-3654-4EEB-028E-5823C3F8931A</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames> ID_Grupe</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

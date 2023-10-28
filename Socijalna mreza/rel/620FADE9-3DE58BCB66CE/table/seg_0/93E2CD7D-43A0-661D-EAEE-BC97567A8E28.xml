@@ -151,5 +151,12 @@
 <colUsage columnID="388B455D-BC49-5393-81D2-1FC76EEC0EB4"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="62B9CCC2-53CA-8BC7-1D65-3FE633D8E238" name="Objave_Tip_Obajve_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:09:35 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>

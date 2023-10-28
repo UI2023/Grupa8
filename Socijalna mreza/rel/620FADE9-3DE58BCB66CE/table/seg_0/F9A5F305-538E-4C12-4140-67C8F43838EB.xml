@@ -74,6 +74,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Copyright_Izvodjaca" id="11555DB1-FF43-A599-C58F-EF303FDE5035">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:37:01 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7300CDB0-51B5-865F-12B3-4D7D9D77DD0E" name="Muzika_PK">

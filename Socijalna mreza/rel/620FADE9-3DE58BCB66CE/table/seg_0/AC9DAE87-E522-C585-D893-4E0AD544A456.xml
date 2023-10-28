@@ -32,7 +32,6 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:57:44 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -47,7 +46,6 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:57:51 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

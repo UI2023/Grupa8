@@ -80,6 +80,20 @@
 <colAssociation fkAssociation="6D1163DF-D1DF-D8C7-38EB-293D7E729DDD" referredColumn="2A90217B-65EA-04C9-FA8D-92859C95BF49"/>
 </associations>
 </Column>
+<Column name="Konverzacija_ID_Konverzacije" id="965311F6-9648-0357-CD34-8F2A01D5FF6F">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:25:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3539C7-0AB4-A0BC-B4DE-8F02FB720515" referredColumn="A2418004-C07F-4F40-286F-A5C5BD8D90CE"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8CDFB1B8-5E3E-364D-7578-05C8CB0FF51E" name="Poruke_PK">
@@ -121,6 +135,23 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="894BB6D6-73D1-616F-328E-7D7DC3CD3288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E283403-AAC6-5F99-6D89-1ECAE1E08969" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:09:35 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="E09BB9EE-6A03-F9C7-FECF-204ADA9117CC" name="Poruke _Konverzacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:25:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965311F6-9648-0357-CD34-8F2A01D5FF6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
