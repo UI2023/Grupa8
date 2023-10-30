@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2278A18-3F8A-21B3-3457-AC24E3D2CE54" name="Proizvod">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:48:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Proizvod" id="C62626A3-E755-C3E1-EA7B-10732A01D10C">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:51:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="7B55C9E9-3E2D-157A-A0DA-A44DA395D9B2">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:51:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="4394BCA5-C262-93AB-9AA4-2A559B383230">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:51:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="0892A0A0-46A6-4712-A5ED-9401DE4A1DE4">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:51:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Slika" id="7BE795C8-4EFA-654F-15CB-3272D79CC3CD">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:56:19 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dostupnost" id="540C53DC-8A03-A5A5-C49E-81BF581AF368">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:03:55 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Kreiranja" id="3DA68FDC-D605-CAE1-873F-C1975A7B0CED">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:52:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Brisanja" id="1F18E1F8-A59F-EB4B-A0DF-4F5471035236">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:52:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Arhiviranja" id="D97D7456-0A94-FB64-38C2-73AEEE47F8B6">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:52:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategorija_Proizvoda_ID_Kategorija_Proizvoda" id="3D1C5450-D8C0-8A7F-1E46-CFEE0A048216">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:57:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="626E9513-89D0-595F-3186-7A219440C433" referredColumn="76CF6D0F-2B78-BBF1-A82F-085B381ED8AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7405B6BD-8A05-51FC-9EEE-360E92D7406A" name="Proizvod_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:51:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76C338DB-8D42-841A-31E9-64B149370F66" name="Proizvod_Kategorija_Proizvoda_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:57:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1C5450-D8C0-8A7F-1E46-CFEE0A048216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

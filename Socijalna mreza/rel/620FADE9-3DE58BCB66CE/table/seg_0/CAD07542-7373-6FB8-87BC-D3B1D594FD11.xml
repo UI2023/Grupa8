@@ -80,20 +80,6 @@
 <colAssociation fkAssociation="6D1163DF-D1DF-D8C7-38EB-293D7E729DDD" referredColumn="2A90217B-65EA-04C9-FA8D-92859C95BF49"/>
 </associations>
 </Column>
-<Column name="Konverzacija_ID_Konverzacije" id="BA46F0B9-394E-8BB8-8E57-23AF2807CD30">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:34:23 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C2E60CE0-7465-EA15-9068-34DC2483FCC1" referredColumn="A2418004-C07F-4F40-286F-A5C5BD8D90CE"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8CDFB1B8-5E3E-364D-7578-05C8CB0FF51E" name="Poruke_PK">
@@ -110,6 +96,13 @@
 <ind_PK_UK id="2E283403-AAC6-5F99-6D89-1ECAE1E08969" name="Poruke _Grupa_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-28 22:09:35 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="5A9894D9-B6FD-DA51-BF7B-9F6B6D4C5350" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:32:14 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -144,22 +137,19 @@
 <colUsage columnID="894BB6D6-73D1-616F-328E-7D7DC3CD3288"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5A9894D9-B6FD-DA51-BF7B-9F6B6D4C5350" name="Poruke _Grupa_FK">
+<ind_PK_UK id="A0A596AE-38A1-2E6E-8016-3B88B61EB0BE" name="Poruke _Konverzacija_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:32:14 UTC</createdTime>
+<createdTime>2023-10-30 13:43:32 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
-<ind_PK_UK id="3AB1B7F5-E31A-B253-E8EF-4CEBA454B06B" name="Poruke _Konverzacija_FK">
+<ind_PK_UK id="D7F71848-4201-5B3D-C606-6D9812425FF2" name="Poruke _Grupa_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:34:23 UTC</createdTime>
+<createdTime>2023-10-30 13:43:32 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BA46F0B9-394E-8BB8-8E57-23AF2807CD30"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>
