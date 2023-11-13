@@ -115,6 +115,20 @@
 <colAssociation fkAssociation="5C19098C-B4A8-584D-4646-8D9562DEF86A" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
+<Column name="Tip_Eventa_ID_Tip_eventa" id="185A20DF-EB7D-58F8-972C-5A57C1D2B134">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADC2083F-AFAB-3C2C-A3B3-FB31773EB29A" referredColumn="1BED6E95-42E5-6FC4-29FD-CD7BC88F2CF9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D41C0B2A-4F26-8A84-8CC7-071DA71F04BA" name="Event_PK">
@@ -146,6 +160,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EFC03F74-A81C-E805-A8DC-FC270B10A907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D849CA5-1084-16CE-8E81-91BE2283A9FE" name="Event_Tip_Eventa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185A20DF-EB7D-58F8-972C-5A57C1D2B134"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

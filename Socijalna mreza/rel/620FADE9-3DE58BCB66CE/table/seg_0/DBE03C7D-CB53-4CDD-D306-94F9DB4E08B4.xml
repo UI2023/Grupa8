@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE03C7D-CB53-4CDD-D306-94F9DB4E08B4" name="Privatna_Prodaja">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE03C7D-CB53-4CDD-D306-94F9DB4E08B4" name="Istorija_Prodaje">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-30 14:30:43 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Priv_Prodaja" id="C418AFB1-DF52-F2B6-6EAC-D0CD9C5E8773">
+<Column name="ID_Istorija_Prodaje" id="C418AFB1-DF52-F2B6-6EAC-D0CD9C5E8773">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-30 14:31:27 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prodavac_ID_Prodavac" id="5D6FA535-B621-CB48-FD2F-18D15F61F0E2">
+<Column name="Korisnik_ID_Korisnik" id="75A09A25-5838-C4BB-E5DC-BD8CDDBE7465">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:35:50 UTC</createdTime>
+<createdTime>2023-11-13 13:50:53 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,12 +69,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1F01CF19-16D3-6963-4CE5-7C0FC331B7C7" referredColumn="784C9520-BAEC-A332-A4F5-AC50075F5699"/>
+<colAssociation fkAssociation="2CA4762E-9BA7-B6E2-506E-657097D17DA2" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
-<Column name="Proizvod_ID_Proizvod" id="62C1D9C4-0A8A-DF10-F47F-0698C1B4D7AC">
+<Column name="Proizvod_ID_Proizvod" id="F84DBB7A-A939-B396-A8FE-F81937A1DCE8">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:36:14 UTC</createdTime>
+<createdTime>2023-11-13 13:51:00 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,7 +83,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="61C4AF52-D396-427A-98C0-4505B3D396AF" referredColumn="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
+<colAssociation fkAssociation="E780EB47-A052-AFE2-1DAB-6B52E466174D" referredColumn="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
+</associations>
+</Column>
+<Column name="Nacin_Placanja_ID_Placanje" id="B49FDD31-BB31-8255-BBE6-BAC8B3552D56">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:55:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E557B0EB-B390-0FED-280B-5BC4812DCE40" referredColumn="D37E12F2-B6CA-EB44-E439-724335EEE86F"/>
 </associations>
 </Column>
 </columns>
@@ -99,24 +113,34 @@
 <colUsage columnID="C418AFB1-DF52-F2B6-6EAC-D0CD9C5E8773"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1FF46ED7-CE3E-1539-3FBC-16AE28C5A6BB" name="Privatna_Prodaja_Prodavac_FK">
+<ind_PK_UK id="3AC890E6-7009-53DD-B848-E4E88E933860" name="Istorija_Prodaje_Korisnik_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:35:50 UTC</createdTime>
+<createdTime>2023-11-13 13:50:53 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5D6FA535-B621-CB48-FD2F-18D15F61F0E2"/>
+<colUsage columnID="75A09A25-5838-C4BB-E5DC-BD8CDDBE7465"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1BA01E80-1DCA-C82F-7CF9-B4BFF80B8177" name="Privatna_Prodaja_Proizvod_FK">
+<ind_PK_UK id="018CCDE8-7682-5957-2130-7A2AA0834EC7" name="Istorija_Prodaje_Proizvod_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:36:14 UTC</createdTime>
+<createdTime>2023-11-13 13:51:00 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="62C1D9C4-0A8A-DF10-F47F-0698C1B4D7AC"/>
+<colUsage columnID="F84DBB7A-A939-B396-A8FE-F81937A1DCE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C93D68CF-9131-F207-38AC-8F1173131E41" name="Istorija_Prodaje_Nacin_Placanja_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:55:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49FDD31-BB31-8255-BBE6-BAC8B3552D56"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

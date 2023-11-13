@@ -145,5 +145,12 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
+<ind_PK_UK id="7F92FC72-7185-5DD2-EEBD-BC5F7E736C77" name="Korisnik_Aktivnost_Korisnika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>

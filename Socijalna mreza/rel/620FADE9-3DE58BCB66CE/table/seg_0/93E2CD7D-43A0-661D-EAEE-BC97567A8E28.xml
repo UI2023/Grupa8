@@ -135,6 +135,13 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
+<ind_PK_UK id="90FE1C33-9FBF-E4E4-A274-A2A1334884C1" name="Objave_Tip_Obajve_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:43:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 <ind_PK_UK id="AAF35691-2436-E3D2-DE1F-8BD68C662CEF" name="Objave_Video_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-23 12:42:45 UTC</createdTime>
@@ -155,13 +162,6 @@
 <colUsage columnID="388B455D-BC49-5393-81D2-1FC76EEC0EB4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90FE1C33-9FBF-E4E4-A274-A2A1334884C1" name="Objave_Tip_Obajve_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:43:32 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
 <ind_PK_UK id="50E3FF30-26BF-633D-7BC8-340ADF9364D8" name="Objave_Pesma_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-30 13:47:05 UTC</createdTime>
@@ -171,6 +171,13 @@
 <indexColumnUsage>
 <colUsage columnID="31B38645-F79B-1C23-2CF5-0253B104AFB0"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92C07566-A04A-54EA-E1F0-501CE41F847A" name="Objave_Tip_Obajve_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

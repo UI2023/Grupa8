@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B38F9E03-48F1-F736-91E9-6E671A663667" containerWithKeyObject="C890B86E-49FA-CDBE-5D4C-9C82508A9182" localFKIndex="2F2C7A9A-BC65-1DC9-75A5-D84764336F96" name="Galerija_Korisnik_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DD506634-1646-DB23-77D0-0A2FA09CCA82" containerWithKeyObject="3D03073D-0228-3F31-332A-FEB63F12B47E" localFKIndex="606CE095-7E5E-5001-E565-522D3B976017" name="Pozicija_Korisnika_Korisnik_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-16 13:36:23 UTC</createdTime>
+<createdTime>2023-11-13 14:23:09 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <referredTableLongName>Korisnik</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

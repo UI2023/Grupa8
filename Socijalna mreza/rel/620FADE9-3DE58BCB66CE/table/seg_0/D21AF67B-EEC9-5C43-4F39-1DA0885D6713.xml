@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE027235-87F6-5395-458F-CC978D214040" name="Istorija_Popusta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D21AF67B-EEC9-5C43-4F39-1DA0885D6713" name="Igrice">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:59:00 UTC</createdTime>
+<createdTime>2023-11-13 14:03:04 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<ordsAlias>table_33</ordsAlias>
+<ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Istorija_Popusta" id="0A57F697-CB41-95F5-CC35-BCEA5B022696">
+<Column name="ID_Igrice" id="B260FC19-90BA-6DAD-EF5E-E3F7281B94A9">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:59:29 UTC</createdTime>
+<createdTime>2023-11-13 14:07:44 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Postavljanja_Popusta" id="B1933690-4BB2-B0B0-66CF-4A05DCC089A8">
+<Column name="Naziv_Igrice" id="361115BB-9483-C929-06F3-6734D582CAF0">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:03:02 UTC</createdTime>
+<createdTime>2023-11-13 14:07:44 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Ukidanja_Popusta" id="2E9DBC67-198D-6108-9A74-3F510810E068">
+<Column name="Kreator_Igrice_ID_Kreator" id="AB73B66D-044E-E1AC-CC18-04650A287FD4">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:03:02 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Popusti_ID_Popusti" id="9273978F-D630-47B2-5DB1-ACDA400F2B29">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:00:03 UTC</createdTime>
+<createdTime>2023-11-13 14:11:15 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,26 +40,25 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E13368B6-3F23-EA9C-1E0A-B28D44F91585" referredColumn="75820C98-94BD-42F6-DAF3-3E46F7B12A8E"/>
+<colAssociation fkAssociation="2238C292-A247-5F62-1D54-5F0946565B5B" referredColumn="471B0875-C45B-94DD-22BB-9F8FD79AD362"/>
 </associations>
 </Column>
-<Column name="Istorija_Prodaje_ID_Istorija_Prodaje" id="F972F38D-49B2-3E96-3A86-FAD550C6469C">
+<Column name="Ocene_ID_Ocene" id="9AC46EC8-DAAC-0851-DF94-AB7F1D1A03FA">
 <createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:19 UTC</createdTime>
+<createdTime>2023-11-13 14:11:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="55585F38-CF84-6D15-04ED-6B6101C1A847" referredColumn="C418AFB1-DF52-F2B6-6EAC-D0CD9C5E8773"/>
+<colAssociation fkAssociation="5C90A62B-48D1-4C8B-F2B0-563C30EE4A65" referredColumn="2BA173B0-EEC1-0C6D-1A2C-AFD599BCD55E"/>
 </associations>
 </Column>
-<Column name="Proizvod_ID_Proizvod" id="374A9242-3460-CC95-F10D-314CA2E97BF3">
+<Column name="Kategorija_Igrica_ID_Kategorija_Igrica" id="2A44C1AB-2564-F701-8673-279B17A42E25">
 <createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:45 UTC</createdTime>
+<createdTime>2023-11-13 14:13:27 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,50 +67,50 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="50065634-5D47-ECE9-F3B6-317D970BDB4F" referredColumn="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
+<colAssociation fkAssociation="154666B0-08B6-ADC3-8EC5-4EAD284C4115" referredColumn="14BEBEFD-F214-2441-9D37-69AEF1F43AFF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6038368D-BE89-B7DF-D4E8-B497A7E458F4" name="Istorija_Popusta_PK">
+<ind_PK_UK id="B1A6416A-BE2C-FA06-CCB3-9AE05723D7F2" name="Igrice_PK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:59:29 UTC</createdTime>
+<createdTime>2023-11-13 14:07:44 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0A57F697-CB41-95F5-CC35-BCEA5B022696"/>
+<colUsage columnID="B260FC19-90BA-6DAD-EF5E-E3F7281B94A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BADDF9E2-E54C-0071-A761-C138C080176C" name="Istorija_Popusta_Popusti_FK">
+<ind_PK_UK id="9695E220-F274-1B36-F9C5-7546C0272603" name="Igrice_Kreator_Igrice_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 14:00:03 UTC</createdTime>
+<createdTime>2023-11-13 14:11:15 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9273978F-D630-47B2-5DB1-ACDA400F2B29"/>
+<colUsage columnID="AB73B66D-044E-E1AC-CC18-04650A287FD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="20D7A2A6-B4BD-7BCA-92C2-6EB67BDC9459" name="Istorija_Popusta_Istorija_Prodaje_FK">
+<ind_PK_UK id="30D7799C-0D1C-4389-F049-4928874CF076" name="Igrice_Ocene_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:19 UTC</createdTime>
+<createdTime>2023-11-13 14:11:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F972F38D-49B2-3E96-3A86-FAD550C6469C"/>
+<colUsage columnID="9AC46EC8-DAAC-0851-DF94-AB7F1D1A03FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B91BF237-010F-4900-BB2D-5E751CB7CA65" name="Istorija_Popusta_Proizvod_FK">
+<ind_PK_UK id="AC5A95D2-11D6-A7D0-EA45-2FB639ECB68A" name="Igrice_Kategorija_Igrica_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:45 UTC</createdTime>
+<createdTime>2023-11-13 14:13:27 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="374A9242-3460-CC95-F10D-314CA2E97BF3"/>
+<colUsage columnID="2A44C1AB-2564-F701-8673-279B17A42E25"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

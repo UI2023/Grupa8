@@ -102,9 +102,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kategorija_Proizvoda_ID_Kategorija_Proizvoda" id="3D1C5450-D8C0-8A7F-1E46-CFEE0A048216">
+<Column name="Prodavac_ID_Prodavac" id="538DE670-C073-B80E-76CF-933538C1332E">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:57:38 UTC</createdTime>
+<createdTime>2023-11-13 13:50:14 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -113,7 +113,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="626E9513-89D0-595F-3186-7A219440C433" referredColumn="76CF6D0F-2B78-BBF1-A82F-085B381ED8AA"/>
+<colAssociation fkAssociation="9984719D-F1E0-0BF9-68BD-2D64BF8F10FE" referredColumn="784C9520-BAEC-A332-A4F5-AC50075F5699"/>
+</associations>
+</Column>
+<Column name="Cena_ID_Cena" id="3DFC9417-5303-F1BE-3507-A3381FD5F85A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:52:26 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D008BEF-2AE6-8A2B-88CD-CF682D0C72CB" referredColumn="9828DD31-D28D-2F31-85BF-82E91C4FF5D9"/>
 </associations>
 </Column>
 </columns>
@@ -129,14 +143,24 @@
 <colUsage columnID="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="76C338DB-8D42-841A-31E9-64B149370F66" name="Proizvod_Kategorija_Proizvoda_FK">
+<ind_PK_UK id="D4783133-60B6-1333-696F-C0A89EECFACF" name="Proizvod_Prodavac_FK">
 <createdBy>mikac</createdBy>
-<createdTime>2023-10-30 13:57:38 UTC</createdTime>
+<createdTime>2023-11-13 13:50:14 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3D1C5450-D8C0-8A7F-1E46-CFEE0A048216"/>
+<colUsage columnID="538DE670-C073-B80E-76CF-933538C1332E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B57D3F69-3FBD-2F89-570E-7AB5D61577E7" name="Proizvod_Cena_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:52:26 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFC9417-5303-F1BE-3507-A3381FD5F85A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

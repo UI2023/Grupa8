@@ -80,20 +80,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_ID_Korisnik" id="F7EEF240-C7F5-E9D6-C92C-7ED436F14601">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:53:52 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="529703F4-41E6-9CCE-3935-4B2922BC5E9B" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
-</associations>
-</Column>
 <Column name="Role_ID_Rola" id="7C1B1516-F754-698E-2ACB-EC27DC0BB082">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-28 22:29:01 UTC</createdTime>
@@ -117,16 +103,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="93D1151C-7F44-D605-CA86-914E3078417C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3A89CB52-910B-9F12-C92D-0274FC5731D5" name="Kreator_Grupe">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:53:52 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F7EEF240-C7F5-E9D6-C92C-7ED436F14601"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4DB9BD79-7911-CBF2-DD69-290E4F443177" name="Grupa_Role_FK">
