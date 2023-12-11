@@ -48,7 +48,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D4BB238C-9C7F-FED4-5AAD-DCC2A8235280" name="Posao_PK">
+<ind_PK_UK id="D4BB238C-9C7F-FED4-5AAD-DCC2A8235280" name="Posao_PKv1">
 <createdBy>Sanja</createdBy>
 <createdTime>2023-12-11 13:52:26 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
