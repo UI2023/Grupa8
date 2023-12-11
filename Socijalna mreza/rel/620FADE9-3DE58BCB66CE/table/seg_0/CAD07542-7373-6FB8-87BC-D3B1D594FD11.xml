@@ -121,6 +121,20 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
+<ind_PK_UK id="7D02CB08-81E5-09C5-B808-DCABB9E54B15" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0D96ABFF-2D19-C401-BE42-E320B8184421" name="Poruke _Konverzacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 <ind_PK_UK id="279A7953-46FC-5324-243C-01A59FA33672" name="Poruke _Korisnik_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-09 13:55:57 UTC</createdTime>
@@ -151,16 +165,16 @@
 <colUsage columnID="894BB6D6-73D1-616F-328E-7D7DC3CD3288"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7D02CB08-81E5-09C5-B808-DCABB9E54B15" name="Poruke _Grupa_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ind_PK_UK id="5AEE149C-7B94-413A-7C2C-872626EBB996" name="Poruke _Grupa_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:51 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
-<ind_PK_UK id="0D96ABFF-2D19-C401-BE42-E320B8184421" name="Poruke _Konverzacija_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ind_PK_UK id="F15B0ABA-B37A-B9C3-7AED-33444891A29E" name="Poruke _Konverzacija_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:52 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

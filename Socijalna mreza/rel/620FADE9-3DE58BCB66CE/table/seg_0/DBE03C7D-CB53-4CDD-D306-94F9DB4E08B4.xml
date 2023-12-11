@@ -72,20 +72,6 @@
 <colAssociation fkAssociation="2CA4762E-9BA7-B6E2-506E-657097D17DA2" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
-<Column name="Proizvod_ID_Proizvod" id="F84DBB7A-A939-B396-A8FE-F81937A1DCE8">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:51:00 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E780EB47-A052-AFE2-1DAB-6B52E466174D" referredColumn="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
-</associations>
-</Column>
 <Column name="Nacin_Placanja_ID_Placanje" id="B49FDD31-BB31-8255-BBE6-BAC8B3552D56">
 <createdBy>mikac</createdBy>
 <createdTime>2023-11-13 13:55:06 UTC</createdTime>
@@ -123,16 +109,6 @@
 <colUsage columnID="75A09A25-5838-C4BB-E5DC-BD8CDDBE7465"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="018CCDE8-7682-5957-2130-7A2AA0834EC7" name="Istorija_Prodaje_Proizvod_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:51:00 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F84DBB7A-A939-B396-A8FE-F81937A1DCE8"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="C93D68CF-9131-F207-38AC-8F1173131E41" name="Istorija_Prodaje_Nacin_Placanja_FK">
 <createdBy>mikac</createdBy>
 <createdTime>2023-11-13 13:55:06 UTC</createdTime>
@@ -142,6 +118,20 @@
 <indexColumnUsage>
 <colUsage columnID="B49FDD31-BB31-8255-BBE6-BAC8B3552D56"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="660DEFA2-30AF-CC1F-F0C7-A1B223351D3F" name="Privatna_Prodaja_Prodavac_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4C322F92-4076-65E5-279F-BA993AB17C76" name="Privatna_Prodaja_Proizvod_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

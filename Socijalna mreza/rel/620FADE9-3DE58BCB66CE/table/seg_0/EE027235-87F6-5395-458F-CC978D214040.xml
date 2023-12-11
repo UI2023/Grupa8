@@ -66,20 +66,6 @@
 <colAssociation fkAssociation="55585F38-CF84-6D15-04ED-6B6101C1A847" referredColumn="C418AFB1-DF52-F2B6-6EAC-D0CD9C5E8773"/>
 </associations>
 </Column>
-<Column name="Proizvod_ID_Proizvod" id="374A9242-3460-CC95-F10D-314CA2E97BF3">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:45 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="50065634-5D47-ECE9-F3B6-317D970BDB4F" referredColumn="C62626A3-E755-C3E1-EA7B-10732A01D10C"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6038368D-BE89-B7DF-D4E8-B497A7E458F4" name="Istorija_Popusta_PK">
@@ -113,15 +99,12 @@
 <colUsage columnID="F972F38D-49B2-3E96-3A86-FAD550C6469C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B91BF237-010F-4900-BB2D-5E751CB7CA65" name="Istorija_Popusta_Proizvod_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-11-13 13:58:45 UTC</createdTime>
+<ind_PK_UK id="7428D349-C4F9-9ABA-5A84-A31F8F2BE831" name="Istorija_Popusta_Proizvod_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:52 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="374A9242-3460-CC95-F10D-314CA2E97BF3"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

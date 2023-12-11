@@ -123,5 +123,12 @@
 <colUsage columnID="9D0590F4-5564-0909-127A-5ECA9C34BA71"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B7F6F4D3-CB34-E719-F7A3-7A9A4A8F0485" name="Prijateljstva_Status_Prijateljstva_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>
