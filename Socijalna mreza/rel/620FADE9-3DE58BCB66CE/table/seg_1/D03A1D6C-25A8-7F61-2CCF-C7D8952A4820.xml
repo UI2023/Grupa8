@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E93A9A30-4AEF-E911-FDC9-8A8387E061F1" name="Obrazovna_ustanova">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D03A1D6C-25A8-7F61-2CCF-C7D8952A4820" name="Dozvole">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:29:55 UTC</createdTime>
+<createdTime>2023-12-28 13:45:07 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<ordsAlias>table_64</ordsAlias>
+<ordsAlias>table_78</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Obrazovna_ustanova" id="F51B9221-C4E8-7FA3-55FD-E7640C02CACB">
+<Column name="ID_Dozvola" id="7AAD818E-FABE-62BF-2F84-486BDE2F990D">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:30:37 UTC</createdTime>
+<createdTime>2023-12-28 13:45:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="6697576A-C12F-04C1-E577-D611B39BDA04">
+<Column name="Naziv" id="AFFF3D87-D6C8-ED3E-8589-30B5E9659FB1">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:31:02 UTC</createdTime>
+<createdTime>2023-12-28 13:46:03 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,38 +29,48 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adresa" id="D6611FAC-A23A-1857-CB5B-247F95B515B8">
+<Column name="Opis" id="3D96D33C-5073-5215-AC72-47BC3EBFE2E1">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:33:03 UTC</createdTime>
+<createdTime>2023-12-28 13:46:13 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nivo_obrazovne_ustanove" id="DC011688-C170-DB4E-F362-97EBCF9811E4">
+<Column name="Datum pocetka vazenja" id="C2093E76-1329-31AC-DCE1-79C03EBB92B5">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 15:39:43 UTC</createdTime>
+<createdTime>2023-12-28 13:46:47 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum isteka vazenja" id="79933652-61DA-85BA-D129-6AAE85E242A4">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:46:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DEBB69BE-D947-A17D-F327-B62ED91DB122" name="Nivo_skolovanja_PK">
+<ind_PK_UK id="816A2159-F3C6-2A58-C226-95B50DA90BFA" name="Dozvole_PK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:30:37 UTC</createdTime>
+<createdTime>2023-12-28 13:45:29 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F51B9221-C4E8-7FA3-55FD-E7640C02CACB"/>
+<colUsage columnID="7AAD818E-FABE-62BF-2F84-486BDE2F990D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

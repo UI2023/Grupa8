@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD94EC1-D4E6-00CB-8C2C-4FD115785449" name="Posao">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="35BE9DC9-815E-0857-7A78-1C8FFFBFB0DE" name="Mentor">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:04 UTC</createdTime>
+<createdTime>2023-12-28 13:34:23 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<ordsAlias>table_75</ordsAlias>
+<ordsAlias>table_74</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Posao" id="7FC9C022-553E-5C7D-B459-99791520A50E">
+<Column name="ID_Mentor" id="43A1F9B3-0C5B-6416-B65C-D9C193F06624">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:26 UTC</createdTime>
+<createdTime>2023-12-28 13:34:43 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kompanije_ID_Kompanija" id="B221BDA2-5D50-87F7-C10C-2A93D7059205">
+<Column name="Ime" id="DD480AAC-255C-9BEF-372A-15FC9A1EEF24">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:30 UTC</createdTime>
+<createdTime>2023-12-28 13:34:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="D5B11B99-C0DD-8FBE-0034-8D3FAD7B5108">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:35:10 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preporuke_ID_Preporuke" id="0B7DDB14-DE45-F8CC-ED89-F4783CD648D4">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:37:24 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +51,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C3A4E9C7-F98B-F8B7-4363-31F32525FCBD" referredColumn="BA084D74-CF65-D1E5-EED3-288F9A90F349"/>
+<colAssociation fkAssociation="B5ECB6A9-BDDD-D964-72C7-C263A237BC6F" referredColumn="1DD1F0FF-4C93-A1BA-ACA9-2137437B1203"/>
 </associations>
 </Column>
-<Column name="Pozicija_ID_Pozicija" id="AE555FC4-D5FD-3882-6622-C8D7D7D445BD">
+<Column name="Istorija_skolovanja_ID_Istorija_skolovanja" id="FC686839-0624-BA47-5E23-824B8361B6D2">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:36 UTC</createdTime>
+<createdTime>2023-12-28 13:37:31 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,64 +65,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4BB435BB-EB6A-9877-20AE-C77D82C7FD6C" referredColumn="54267EA9-3042-1057-5749-D057AB3BBD9F"/>
-</associations>
-</Column>
-<Column name="Beneficije_ID_Beneficije" id="1CB42E7E-ECD9-73B0-2E6E-A9F8A9737B10">
-<createdBy>Sanja</createdBy>
-<createdTime>2023-12-28 13:33:22 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9AF58CD9-BE46-2723-968A-3B84068F53D4" referredColumn="9FA06E47-20CF-2693-61F3-72EAA58DA306"/>
+<colAssociation fkAssociation="0849A01B-758C-6B27-BA4B-3365B3DD61DC" referredColumn="A98ADB25-EFC1-1A49-1026-DB3C453B813B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D4BB238C-9C7F-FED4-5AAD-DCC2A8235280" name="Posao_PKv1">
+<ind_PK_UK id="CFD65CDD-9C66-1DA9-BD6A-49CF3770E632" name="Mentor_PK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:26 UTC</createdTime>
+<createdTime>2023-12-28 13:34:43 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7FC9C022-553E-5C7D-B459-99791520A50E"/>
+<colUsage columnID="43A1F9B3-0C5B-6416-B65C-D9C193F06624"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="91C3F61F-8771-8839-71D1-6D17AD1ED2DD" name="Posao_Kompanije_FK">
+<ind_PK_UK id="89A5CCF4-C977-1A78-EC97-237D36B6190C" name="Mentor_Preporuke_FK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:30 UTC</createdTime>
+<createdTime>2023-12-28 13:37:24 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B221BDA2-5D50-87F7-C10C-2A93D7059205"/>
+<colUsage columnID="0B7DDB14-DE45-F8CC-ED89-F4783CD648D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="51C51B87-D132-F313-2E80-0312071F53A1" name="Posao_Pozicija_FK">
+<ind_PK_UK id="666135CC-47B1-BA47-2DF6-828F812CA933" name="Mentor_Istorija_skolovanja_FK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:36 UTC</createdTime>
+<createdTime>2023-12-28 13:37:31 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AE555FC4-D5FD-3882-6622-C8D7D7D445BD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="FA2829F0-956D-2465-7BAF-83834983290D" name="Posao_Beneficije_FK">
-<createdBy>Sanja</createdBy>
-<createdTime>2023-12-28 13:33:22 UTC</createdTime>
-<ownerDesignName>Socijalna mreza</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1CB42E7E-ECD9-73B0-2E6E-A9F8A9737B10"/>
+<colUsage columnID="FC686839-0624-BA47-5E23-824B8361B6D2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

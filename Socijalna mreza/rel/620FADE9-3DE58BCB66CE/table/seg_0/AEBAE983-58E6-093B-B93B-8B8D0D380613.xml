@@ -66,6 +66,20 @@
 <colAssociation fkAssociation="E34DD8F3-6B19-BD7D-7E59-9BBFD98BB41B" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
 </associations>
 </Column>
+<Column name="Administracija_ID_Administracija" id="E95457BE-3847-6B1E-DA54-08260114D98B">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:56:54 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75C00722-B11B-777F-6AEC-8C0561F918D7" referredColumn="5F8C4F02-F079-5F72-B410-F7FE066F5DF5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4996B2F9-B20C-58C7-48BF-F6271F6DCEFA" name="Clanstvo_U_Grupi_PK">
@@ -97,6 +111,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9957A4AA-ED10-EADB-5EDB-00EF645A7B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A40BEBFC-13AE-0F30-CF1F-8055FEBFFDE0" name="Clanstvo_U_Grupi _Administracija_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:56:54 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95457BE-3847-6B1E-DA54-08260114D98B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

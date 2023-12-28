@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD94EC1-D4E6-00CB-8C2C-4FD115785449" name="Posao">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="961B7265-FC8D-3D83-608C-F609CC1B0AF8" name="Administracija">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:04 UTC</createdTime>
+<createdTime>2023-12-28 13:47:14 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<ordsAlias>table_75</ordsAlias>
+<ordsAlias>table_79</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Posao" id="7FC9C022-553E-5C7D-B459-99791520A50E">
+<Column name="ID_Administracija" id="5F8C4F02-F079-5F72-B410-F7FE066F5DF5">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:26 UTC</createdTime>
+<createdTime>2023-12-28 13:50:33 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kompanije_ID_Kompanija" id="B221BDA2-5D50-87F7-C10C-2A93D7059205">
+<Column name="Naziv" id="EDE203A8-7A17-988A-5DB8-04BD10551C74">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:30 UTC</createdTime>
+<createdTime>2023-12-28 13:50:54 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odgovornosti_ID_Odgovornosti" id="D8B54C96-F8DE-726C-A6D1-4237C97449B6">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:54:27 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +39,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C3A4E9C7-F98B-F8B7-4363-31F32525FCBD" referredColumn="BA084D74-CF65-D1E5-EED3-288F9A90F349"/>
+<colAssociation fkAssociation="782ED6D2-B9A6-7B20-C686-CE55A8E482A1" referredColumn="7F07AEC3-B993-E580-C27D-4DFE92050A05"/>
 </associations>
 </Column>
-<Column name="Pozicija_ID_Pozicija" id="AE555FC4-D5FD-3882-6622-C8D7D7D445BD">
+<Column name="Dozvole_ID_Dozvola" id="A0BC7A92-9728-0A71-77F3-18107E5200FD">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:36 UTC</createdTime>
+<createdTime>2023-12-28 13:54:34 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,12 +53,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4BB435BB-EB6A-9877-20AE-C77D82C7FD6C" referredColumn="54267EA9-3042-1057-5749-D057AB3BBD9F"/>
+<colAssociation fkAssociation="6A95A8B4-2ACA-B748-B0DB-DFA441E3C565" referredColumn="7AAD818E-FABE-62BF-2F84-486BDE2F990D"/>
 </associations>
 </Column>
-<Column name="Beneficije_ID_Beneficije" id="1CB42E7E-ECD9-73B0-2E6E-A9F8A9737B10">
+<Column name="Role_ID_Rola" id="70B9D206-F79E-AA75-1922-083C6B7907C4">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-28 13:33:22 UTC</createdTime>
+<createdTime>2023-12-28 13:54:40 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,50 +67,50 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9AF58CD9-BE46-2723-968A-3B84068F53D4" referredColumn="9FA06E47-20CF-2693-61F3-72EAA58DA306"/>
+<colAssociation fkAssociation="BC2C9C8D-70F4-2904-C7FA-3F172FC592AA" referredColumn="9B7B8EF8-D900-5542-C24D-80A70815EC2F"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D4BB238C-9C7F-FED4-5AAD-DCC2A8235280" name="Posao_PKv1">
+<ind_PK_UK id="1DC9F814-1C23-2454-6AC1-DE89D1FB788A" name="Administracija_PK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:52:26 UTC</createdTime>
+<createdTime>2023-12-28 13:50:33 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7FC9C022-553E-5C7D-B459-99791520A50E"/>
+<colUsage columnID="5F8C4F02-F079-5F72-B410-F7FE066F5DF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="91C3F61F-8771-8839-71D1-6D17AD1ED2DD" name="Posao_Kompanije_FK">
+<ind_PK_UK id="C8272242-6FC2-24CE-F1D7-DD7ACBD9ADC3" name="Administracija_Odgovornosti_FK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:30 UTC</createdTime>
+<createdTime>2023-12-28 13:54:27 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B221BDA2-5D50-87F7-C10C-2A93D7059205"/>
+<colUsage columnID="D8B54C96-F8DE-726C-A6D1-4237C97449B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="51C51B87-D132-F313-2E80-0312071F53A1" name="Posao_Pozicija_FK">
+<ind_PK_UK id="E113775A-0284-343C-0EE6-45724C8A7D31" name="Administracija_Dozvole_FK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-11 13:55:36 UTC</createdTime>
+<createdTime>2023-12-28 13:54:34 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AE555FC4-D5FD-3882-6622-C8D7D7D445BD"/>
+<colUsage columnID="A0BC7A92-9728-0A71-77F3-18107E5200FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA2829F0-956D-2465-7BAF-83834983290D" name="Posao_Beneficije_FK">
+<ind_PK_UK id="E4FD5AC0-A32A-49BA-833F-4723CD3451FA" name="Administracija_Role_FK">
 <createdBy>Sanja</createdBy>
-<createdTime>2023-12-28 13:33:22 UTC</createdTime>
+<createdTime>2023-12-28 13:54:40 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1CB42E7E-ECD9-73B0-2E6E-A9F8A9737B10"/>
+<colUsage columnID="70B9D206-F79E-AA75-1922-083C6B7907C4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

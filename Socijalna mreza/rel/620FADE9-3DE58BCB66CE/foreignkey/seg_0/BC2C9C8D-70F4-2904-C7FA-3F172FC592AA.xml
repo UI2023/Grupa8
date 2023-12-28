@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA928314-1DE1-9DEF-2A5F-C1B354B71DF5" containerWithKeyObject="AEBAE983-58E6-093B-B93B-8B8D0D380613" localFKIndex="AE29763F-49CA-89DE-035C-FD04271D0B09" name="Clanstvo_U_Grupi _Role_FK">
-<createdBy>mikac</createdBy>
-<createdTime>2023-10-16 12:52:45 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC2C9C8D-70F4-2904-C7FA-3F172FC592AA" containerWithKeyObject="961B7265-FC8D-3D83-608C-F609CC1B0AF8" localFKIndex="E4FD5AC0-A32A-49BA-833F-4723CD3451FA" name="Administracija_Role_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:54:40 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
 <referredTableLongName>Role</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

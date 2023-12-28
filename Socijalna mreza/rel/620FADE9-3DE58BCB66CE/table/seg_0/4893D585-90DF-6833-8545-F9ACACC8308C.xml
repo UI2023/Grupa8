@@ -12,7 +12,9 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-23 12:57:50 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -40,7 +42,8 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-23 12:59:07 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

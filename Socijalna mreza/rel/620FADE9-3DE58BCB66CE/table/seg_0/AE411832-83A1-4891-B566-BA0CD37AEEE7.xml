@@ -12,7 +12,9 @@
 <createdBy>mikac</createdBy>
 <createdTime>2023-10-16 12:52:30 UTC</createdTime>
 <ownerDesignName>Socijalna mreza</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
